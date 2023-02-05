@@ -1,7 +1,7 @@
 
 # Automatic Sentiment Analyzer
 
-ASA is an app that takes a complete csv file from the user as an input and assign a sentiment label to each row. It then returns an output csv file with a new column for the sentiment labels.
+ASA is an app that takes a complete csv file from the user as an input and assigns a sentiment label to each row. It then returns an output csv file with a new column for the sentiment labels.
 
 It uses a [DistilBERT](https://arxiv.org/abs/1910.01108) model that [I fintuned on the IMDB dataset](https://github.com/hailASG/Finetuned_DistilBERT) and the [VADER](https://ojs.aaai.org/index.php/icwsm/article/view/14550)  to sentiemnt analyzer assing the sentiment labels. 
 
