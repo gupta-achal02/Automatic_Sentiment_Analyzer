@@ -23,15 +23,15 @@ On the first page, you must upload the csv file and provide the column name for 
 
 These are the last few columns of the input csv file that I've chosen in this example
 
-![Page 6](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/6.png)
+![Page 3](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/3.png)
 
 After some time a new page will open. Here you can press the Download button to download the output csv file. It will be named `{input_filename}_output.csv`. If you scroll down, you can see a countplot, piechart and two wordclouds for the negative and positive labels.
 
-![Page 2](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/2.png)![Page 3](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/3.png)![Page 4](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/4.png)![Page 5](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/5.png)
+![Page 2](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/2.png)
 
 The resultant csv file now has an additional column with the name 'sentiment'
 
-![Page 7](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/7.png)
+![Page 4](https://github.com/hailASG/Automatic_Sentiment_Analyzer/blob/main/images/4.png)
 
 ## Files
 There are two main files `app.py` and `functions.py`. 
