@@ -3,7 +3,7 @@
 
 ASA is an app that takes a complete csv file from the user as an input and assigns a sentiment label to each row. It then returns an output csv file with a new column for the sentiment labels.
 
-It uses a [DistilBERT](https://arxiv.org/abs/1910.01108) model that [I fintuned on the IMDB dataset](https://github.com/hailASG/Finetuned_DistilBERT) and the [VADER](https://ojs.aaai.org/index.php/icwsm/article/view/14550)  to sentiemnt analyzer assing the sentiment labels. 
+It uses a [DistilBERT](https://arxiv.org/abs/1910.01108) model that [I fintuned on the IMDB dataset](https://github.com/hailASG/Finetuned_DistilBERT) and the [VADER](https://ojs.aaai.org/index.php/icwsm/article/view/14550)  sentiment analyzer to assign the sentiment labels. 
 
 What to choose from these models depends on the number of rows in the csv file, as using DistilBERT with larger files will significantly increase the runtime.
 
@@ -36,4 +36,4 @@ The resultant csv file now has an additional column with the name 'sentiment'
 ## Files
 There are two main files `app.py` and `functions.py`. 
 
-`app.py` file contains the code for the Flask app itself, while `functions.py` file contains all the required functions for loading the DistilBERT model and the VADER sentiment analyzer, reading the csv file, and assinging the sentiment labels to create the output csv file.
+`app.py` file contains the code for the Flask app itself, while `functions.py` file contains all the required functions for loading the DistilBERT model and the VADER sentiment analyzer, reading the csv file, and assigning the sentiment labels to create the output csv file.
